@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,0">
+  <title>Profil Saya</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <style>
+    /* CSS UTAMA */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    </style>
+
+  </body>
+
+    <!-- NAVIGASI -->
+  <header class="topbar">
+    <a href="#profile" class="logo">Dhea</a>
+    <nav aria-label="Navigasi utama">
+      <ul>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#sekolah">Sekolah</a></li>
+        <li><a href="#jadwal">Jadwal Sekolah</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#materi">Materi</a></li>
+        <li><a href="#drakor">Kdrama</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- PROFILE -->
+    <section id="profile" class="hero">
+      <div class="hero-text">
+        <p class="kicker">Halo, saya</p>
+        <h1> Dhea Anggraeni</h1>
+        <p class="lead">Siswa kelas X SMKN 1 Gunung Putri.</p>
+        <a class="btn" href="#portfolio">Lihat portfolio</a>
+      </div>
+      <div class="hero-card">
+        <div class="foto" role="img" aria-label="Foto profil"></div>
+        <dl>
+          <dt>Tempat, tanggal lahir</dt><dd>Bogor, 23 Januari 2011</dd>
+          <dt>Alamat</dt><dd>Bogor, Jawa Barat</dd>
+          <dt>Hobi</dt><dd>Membaca, dan memasak</dd>
+          <dt>Email</dt><dd>dheaanggraeni140@gmail.com</dd>
+        </dl>
+      </div>
+    </section>
+
+    <!-- SEKOLAH -->
+    <section id="sekolah" class="section">
+      <h2>Sekolah</h2>
+      <div class="two-col">
+        <div>
+          <h3>SMK Negeri 1 Gunung Putri</h3>
+          <p>JL.Barokah No. 06, Desa Wanaherang, Kecamatan Gunungputri, Kabupaten Bogor, Jawa Barat 16965..</p>
+          <ul class="plain">
+            <li>Kelas: X RPL 3</li>
+            <li>NIS: 123456789</li>
+            <li>Wali kelas: Bu Novi.ch, S.Pd.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Kegiatan</h3>
+          <ul class="plain">
+            <li>Mengikuti Kegiatan Sekolah</li>
+            <li>Belajar Menggunakan Aplikasi Pemrograman</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- JADWAL SEKOLAH -->
+    <section id="jadwal" class="section">
+      <h2>Jadwal Sekolah</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Jam</th><th>Senin</th><th>Selasa</th><th>Rabu</th><th>Kamis</th><th>Jumat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>06.30 – 09.30</td><td>DKK</td><td>DKK</td><td>DKK</td><td>TIK</td><td>DKK</td></tr>
+            <tr><td>10.00 – 12.00</td><td>DKK</td><td>TIK</td><td>DKK</td><td>IPAS</td><td>DKK</td></tr>
+            <tr class="break"><td>12.00 – 12.40</td><td colspan="5">Istirahat</td></tr>
+            <tr><td>12.30 – 13.40</td><td>Apel</td><td>IPAS</td><td>MPK</td><td>IPAS</td><td>DKK</td></tr>
+            <tr><td>13.40 – 15.00</td><td>Jepang</td><td>IPAS</td><td>MPK</td><td>IPAS</td><td>DKK</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section">
+      <h2>Portfolio</h2>
+      <div class="grid">
+        <article class="card">
+          <h3> Juara 1 classmeet</h3>
+          <p>Juara 1 lomba estafet di Satoe.</p>
+          <span class="tag"><a href="1classmeet.jpeg">Foto</a></span>
+          <span class="tag"><a href="video1classmeet.mp4">Video</a></span>
+        </article>
+        <article class="card">
+          <h3>Kalkulator Matematika Python</h3>
+          <p>Membuat kalkulator perhitungan rumus matematika menggunakan python.</p>
+          <span class="tag"><a href="#">pyhton</a>
+        </article>
+        <article class="card">
+          <h3>Poster Untuk Hari Kemerdekaan Indonesia</h3>
+          <p>Desain poster untuk tugas ekstrakurikuler jurnalistik.</p>
+          <span class="tag"><a href="DIRGAHAYU INDONESIA.jpg">desain</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- MATERI -->
+    <section id="materi" class="section">
+      <h2>Materi</h2>
+      <ul class="materi">
+        <li>
+          <div><strong>HTML dan CSS</strong><span>Kinematika: GLB dan GLBB</span></div>
+          <a href="https://bie.telkomuniversity.ac.id/membangun-dunia-digitalmu-sendiri-panduan-dasar-html-dan-css/">Unduh</a>
+        </li>
+        <li>
+          <div><strong>Informatika</strong><span>Algoritma dan flowchart</span></div>
+          <a href="https://teknik.univpancasila.ac.id/labkom/praktikum/Modul%20Praktikum/Raptor/Pertemuan-1%20Algoritma%20dan%20Flowchart.pdf">Unduh</a>
+        </li>
+        <li>
+          <div><strong>database dasar</strong><span>mengelola dan menyimpan data SQL</span></div>
+          <a href="c:\Users\ASUS\Downloads\PPT_3_Database_Dasar.pdf">Unduh</a>
+        </li>
+        <li>
+          <div><strong>programing dasar</strong><span>dasar dasar phyton</span></div>
+          <a href="c:\Users\ASUS\Downloads\PPT_2_Programming_Dasar.pdf">Unduh</a>
+        </li>
+      </ul>
+    </section>a
+
+    
+<section id="drakor" class="section">
+  <h2>Kdrama</h2>
+
+  <div class="grid">
+
+    <article class="card">
+      <div class="poster night"></div>
+      <h3>Night Has Come</h3>
+      <p>Thriller, Mystery</p>
+    </article>
+
+    <article class="card">
+      <div class="poster beauty"></div>
+      <h3>True Beauty</h3>
+      <p>Romance, Comedy</p>
+    </article>
+
+    <article class="card">
+      <div class="poster family"></div>
+      <h3>Family by Choice</h3>
+      <p>Family, Romance</p>
+    </article>
+
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Dhea Anggraeni</p>
+  </footer>
+
+</body>
+</html>
